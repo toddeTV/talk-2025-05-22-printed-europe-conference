@@ -43,9 +43,9 @@ layout: basic
     <div class="p-2 flex-shrink-0 flex gap-4">
         <div>
             <img
-            alt="Avatar of Thorsten Seyschab"
-            class="rounded-full w-full border-3 border-baseColor h-30 w-30"
-            src="/assets/thorsten-seyschab.jpg"
+                alt="Avatar of Thorsten Seyschab"
+                class="rounded-full w-full border-3 border-baseColor h-30 w-30"
+                src="/assets/thorsten-seyschab.jpg"
             >
         </div>
         <div>

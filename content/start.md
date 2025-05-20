@@ -12,16 +12,10 @@ leftOrientation: center
     <div>
         with <span class="color-[#26ab7a]">Thorsten Seyschab</span>
     </div>
-    <ul class="absolute top-10 w-100" v-click="1">
-        <li><mdi-message-bubble-outline class="baseColor mr-2" /> Computer Scientist and Web Engineer</li>
-        <li><mdi-school-outline class="baseColor mr-2" /> Master of Science in Computer Science</li>
-        <li><mdi-worker-outline class="baseColor mr-2"/> Fullstack developer, Self-Employed</li>
-        <!-- <li>based in Germany</li> -->
-    </ul>
     <div
         class="absolute top-0 left-105 px-5 py-2 whitespace-nowrap flex flex-col gap-2"
-        v-click="2"
-        v-mark="{ at: 2, color: '#26ab7a', type: 'box' }"
+        v-click="1"
+        v-mark="{ at: 1, color: '#26ab7a', type: 'box' }"
     >
         <div class="flex">
             <mdi-web class="baseColor mt-0.5 mr-2" />
@@ -53,6 +47,12 @@ leftOrientation: center
             <MyLink to="https://www.twitch.tv/toddeTV">toddeTV</MyLink>
         </div>
     </div>
+    <ul class="absolute top-10 w-100" v-click="2">
+        <li><mdi-message-bubble-outline class="baseColor mr-2" /> Computer Scientist and Web Engineer</li>
+        <li><mdi-school-outline class="baseColor mr-2" /> Master of Science in Computer Science</li>
+        <li><mdi-worker-outline class="baseColor mr-2"/> Fullstack developer, Self-Employed</li>
+        <!-- <li>based in Germany</li> -->
+    </ul>
 </div>
 
 <!--

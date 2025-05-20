@@ -2,7 +2,7 @@
 layout: basic
 ---
 
-# Foundation
+# Internet Foundation
 
 <InternetFoundationSvg />
 
