@@ -13,6 +13,8 @@ layout: basic
 </div>
 
 <!--
+OSI = Open Systems Interconnection
+
 From last slide:
 - Transport Protocols
 - Application Protocols
