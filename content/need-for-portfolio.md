@@ -2,9 +2,9 @@
 layout: basic
 ---
 
-# Why in the Web?
+# Why 3D in the Web?
 
-copy existing slide?
+it is interactive against an static image
 
 # Website Structure
 
