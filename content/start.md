@@ -19,7 +19,7 @@ leftOrientation: center
         <!-- <li>based in Germany</li> -->
     </ul>
     <div
-        class="absolute -top-14 left-105 px-5 py-2 whitespace-nowrap flex flex-col gap-2"
+        class="absolute top-0 left-105 px-5 py-2 whitespace-nowrap flex flex-col gap-2"
         v-click="2"
         v-mark="{ at: 2, color: '#26ab7a', type: 'box' }"
     >
