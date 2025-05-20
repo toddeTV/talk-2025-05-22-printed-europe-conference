@@ -116,6 +116,7 @@ _(Projects that provided valuable inspiration or resources.)_
 _(excluding those listed in `./package.json`)_
 
 - [GitHub Copilot](https://github.com/features/copilot) was used in private mode for programming questions.
+- [excalidraw](https://excalidraw.com/) was used for sketching & drawing images.
 
 **Assets & Materials Used:**<br>
 _(including images & 3D models; mostly only those requiring attribution)_
@@ -123,6 +124,11 @@ _(including images & 3D models; mostly only those requiring attribution)_
 - Portrait from `Thorsten Seyschab` by [Franziska Kestel](https://franziskakestel.de/).
 - Logo for `ThreeJS` from [https://discourse.threejs.org/t/three-js-svg-logo/21835](https://discourse.threejs.org/t/three-js-svg-logo/21835).
 - Logo for `WebGL` from [https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg](https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg).
+- Image `Dagoma-Neva-Magis-6779-1.png` from [https://www.aniwaa.com/product/3d-printers/dagoma-neva-magis/](https://www.aniwaa.com/product/3d-printers/dagoma-neva-magis/).
+- Image `MK3_NEF_500px-1.png` from [https://help.prusa3d.com/de/product/mk3s](https://help.prusa3d.com/de/product/mk3s).
+- Image `x1Series-main-bg-v1.png` from [https://bambulab.com/de-de/x1](https://bambulab.com/de-de/x1).
+- Image `Math_Lady_meme.jpg` from [https://en.wikipedia.org/wiki/Math_Lady](https://en.wikipedia.org/wiki/Math_Lady).
+- Image `The-7-Layers-of-OSI.png` from [https://insights.profitap.com/osi-7-layers-explained-the-easy-way](https://insights.profitap.com/osi-7-layers-explained-the-easy-way)
 
 ## License
 
