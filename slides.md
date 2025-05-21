@@ -84,6 +84,10 @@ src: content/git.md
 ---
 
 ---
+src: content/data-lifecycles.md
+---
+
+---
 src: content/cms.md
 ---
 
