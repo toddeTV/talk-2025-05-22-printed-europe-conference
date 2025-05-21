@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useNav } from '@slidev/client'
 import { computed } from 'vue'
-import SvgElementFilter from './SvgElementFilter.vue'
+import SvgElementFilter from '../SvgElementFilter.vue'
 import mySvgContent from '/assets/excalidraw-drawings/Web-Mindmap_light.svg?raw'
 
 const { clicks } = useNav()
@@ -15,12 +15,9 @@ const elementsToShow = computed<number[] | 'all'>(() => {
 </script>
 
 <template>
-  <div class="flex justify-center">
-    <SvgElementFilter
-      class="h-[90%] -mt-10"
-      :display-indices="elementsToShow"
-      svg-class="h-full"
-      :svg-content="mySvgContent"
-    />
-  </div>
+  <SvgElementFilter
+    :display-indices="elementsToShow"
+    svg-class="w-full"
+    :svg-content="mySvgContent"
+  />
 </template>

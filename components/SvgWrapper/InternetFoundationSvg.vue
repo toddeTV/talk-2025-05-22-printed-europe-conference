@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useNav } from '@slidev/client'
 import { computed } from 'vue'
-import SvgElementFilter from './SvgElementFilter.vue'
+import SvgElementFilter from '../SvgElementFilter.vue'
 import mySvgContent from '/assets/excalidraw-drawings/internet-foundation_light.svg?raw'
 
 const { clicks } = useNav()

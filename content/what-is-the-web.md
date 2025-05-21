@@ -4,7 +4,9 @@ layout: basic
 
 # What is the Web?
 
-<WhatIsTheWeb />
+<div class="w-full flex justify-center -mt-25">
+  <WhatIsTheWebSvg class="w-full" />
+</div>
 
 <!-- dummy only to force the click count on this slide manually -->
 <div v-click="1" />
