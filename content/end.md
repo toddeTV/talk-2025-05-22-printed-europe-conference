@@ -13,7 +13,7 @@ layout: basic
     </div>
 </div> -->
 
-<div class="flex flex-row gap-8 mt-8">
+<div class="flex flex-row justify-between gap-8 mt-8">
     <div
         class="p-4 flex flex-col items-center"
         v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
@@ -33,29 +33,14 @@ layout: basic
         class="p-4 flex flex-col items-center"
         v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
     >
-        <QRCode content="https://github.com/toddeTV/zlig" :size="128" class="mb-6" />
+        <QRCode content="https://talk-2025-04-08-dev-day-conference.vercel.app/" :size="128" class="mb-6" />
         <div class="flex flex-col gap-2">
             <div class="whitespace-nowrap">
-                Game Source:
+                Talk Slides `Playing with 3D on the Web & Beyond`:
             </div>
             <div class="w-full text-sm">
                 <mdi-github class="baseColor mx-2" />
-                <MyLink to="https://github.com/toddeTV/zlig">https://github.com/toddeTV/zlig</MyLink>
-            </div>
-        </div>
-    </div>
-    <div
-        class="p-4 flex flex-col items-center"
-        v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
-    >
-        <QRCode content="https://github.com/toddeTV/gltf-type-toolkit" :size="128" class="mb-6" />
-        <div class="flex flex-col gap-2">
-            <div class="whitespace-nowrap">
-                @todde.tv/gltf-type-toolkit
-            </div>
-            <div class="w-full text-sm">
-                <mdi-github class="baseColor mx-2" />
-                <MyLink to="https://github.com/toddeTV/gltf-type-toolkit">https://github.com/toddeTV/gltf-type-toolkit</MyLink>
+                <MyLink to="https://talk-2025-04-08-dev-day-conference.vercel.app/">https://talk-2025-04-08-dev-day-conference.vercel.app/</MyLink>
             </div>
         </div>
     </div>
