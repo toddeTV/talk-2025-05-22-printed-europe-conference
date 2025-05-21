@@ -5,7 +5,7 @@ layout: basic
 # GIT
 
 <div class="w-full flex flex-row justify-between gap-10 mt-15">
-<div v-click class="w-1/4 shrink-0">
+<div v-click class="w-1/3 shrink-0">
 
 <h2>What?</h2>
 

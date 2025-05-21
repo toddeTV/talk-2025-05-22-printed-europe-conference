@@ -10,3 +10,8 @@ layout: basic
 
 <!-- dummy only to force the click count on this slide manually -->
 <div v-click="9" />
+
+<!--
+Also think about:
+What data can be shipped to the client and what not?
+-->
