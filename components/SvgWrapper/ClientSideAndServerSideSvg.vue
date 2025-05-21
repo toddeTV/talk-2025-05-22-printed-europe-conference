@@ -28,7 +28,7 @@ const elementsToShow = computed<number[] | 'all'>(() => {
     res = [...res, 20, 21, 23, 24, 25, 26, 27, 28, 29]
   }
   if (clicks.value >= 6) { // APIs
-    res = [...res, 30]
+    res = [...res, 30, 34]
   }
   if (clicks.value >= 7) { // note
     res = [...res, 31, 32, 33]
