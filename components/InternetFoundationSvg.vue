@@ -18,8 +18,13 @@ const client2 = [59, 61, 64, 65]
 const dns = [35, 36, 37, 38, 40, 41, 48, 50, 52, 54]
 const applicationProtocols = [55, 56]
 const transportProtocols = [57, 58]
+const secure = [73, 74, 75, 76]
 
 const elementsToShow = computed<number[] | 'all'>(() => {
+  if (clicks.value >= 9) {
+    return 'all'
+  }
+
   let res: number[] = []
   if (clicks.value >= 0) {
     res = [...res, ...fonts]
@@ -48,13 +53,15 @@ const elementsToShow = computed<number[] | 'all'>(() => {
   if (clicks.value >= 8) {
     res = [...res, ...applicationProtocols]
   }
+  if (clicks.value >= 9) {
+    res = [...res, ...secure]
+  }
   return res
 })
 </script>
 
 <template>
   <SvgElementFilter
-    class="w-full -mt-10"
     :display-indices="elementsToShow"
     svg-class="w-full"
     :svg-content="mySvgContent"
