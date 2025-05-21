@@ -128,7 +128,6 @@ _(including images & 3D models; mostly only those requiring attribution)_
 - Image `MK3_NEF_500px-1.png` from [https://help.prusa3d.com/de/product/mk3s](https://help.prusa3d.com/de/product/mk3s).
 - Image `x1Series-main-bg-v1.png` from [https://bambulab.com/de-de/x1](https://bambulab.com/de-de/x1).
 - Image `Math_Lady_meme.jpg` from [https://en.wikipedia.org/wiki/Math_Lady](https://en.wikipedia.org/wiki/Math_Lady).
-- Image `The-7-Layers-of-OSI.png` from [https://insights.profitap.com/osi-7-layers-explained-the-easy-way](https://insights.profitap.com/osi-7-layers-explained-the-easy-way)
 - Model `3D Benchy`/`Benchy` from [https://www.printables.com/model/3161-3d-benchy](https://www.printables.com/model/3161-3d-benchy)
 
 ## License
