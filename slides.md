@@ -80,6 +80,10 @@ src: content/client-side-and-server-side.md
 ---
 
 ---
+src: content/git.md
+---
+
+---
 src: content/need-for-portfolio.md
 ---
 
