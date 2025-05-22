@@ -7,10 +7,6 @@ coverage
 components.d.ts
 .env
 
-# Generated glTF model files
-*.gltf.d.ts
-*.gltf.js
-
 # Logs
 logs
 *.log
