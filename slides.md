@@ -104,7 +104,11 @@ src: content/3d-on-the-web.md
 ---
 
 ---
-src: content/zlig-demo.md
+src: content/demo-zlig.md
+---
+
+---
+src: content/demo-portfolio.md
 ---
 
 ---

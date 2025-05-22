@@ -129,6 +129,8 @@ _(including images & 3D models; mostly only those requiring attribution)_
 - Image `x1Series-main-bg-v1.png` from [https://bambulab.com/de-de/x1](https://bambulab.com/de-de/x1).
 - Image `Math_Lady_meme.jpg` from [https://en.wikipedia.org/wiki/Math_Lady](https://en.wikipedia.org/wiki/Math_Lady).
 - Model `3D Benchy`/`Benchy` from [https://www.printables.com/model/3161-3d-benchy](https://www.printables.com/model/3161-3d-benchy)
+- Demo of Website [https://zlig.net](https://zlig.net).
+- Demo of Website [https://bruno-simon.com/](https://bruno-simon.com/) including screenshot of og-image.
 
 ## License
 
