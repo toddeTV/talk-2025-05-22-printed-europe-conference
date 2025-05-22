@@ -10,7 +10,6 @@ import {
   AmbientLight,
   CameraHelper,
   DirectionalLight,
-  DirectionalLightShadow,
   NoToneMapping,
   PerspectiveCamera,
   SRGBColorSpace,
@@ -20,10 +19,10 @@ import { ref, shallowRef, watch, watchEffect } from 'vue'
 
 const showGrid = ref(false)
 const showLights = ref(false)
-const directionalLightRange = ref('100')
+const directionalLightRange = ref('140')
 const showPlane = ref(false)
 const showShadow = ref(false)
-const showModel = ref(false)
+const showModel = ref(true)
 const showInteraction = ref(false)
 const showPostprocessing = ref(false)
 
@@ -83,6 +82,10 @@ watchEffect(() => {
   directionalLight.position.set(7, 4, 7)
   directionalLight.target.position.set(0, 1, 0)
   // directionalLight.shadow.camera.updateProjectionMatrix()
+  directionalLight.shadow.mapSize.width = 1024 * 2 // more beautiful, but performance heavier
+  directionalLight.shadow.mapSize.height = 1024 * 2
+  directionalLight.shadow.bias = -0.005 // fine tune to reduce shadow artifacts (negative and as close to 0 as possible)
+
   const directionalLightHelper = new CameraHelper(directionalLight.shadow.camera)
   lightsRef.value.add(ambientLight)
   lightsRef.value.add(directionalLight)
