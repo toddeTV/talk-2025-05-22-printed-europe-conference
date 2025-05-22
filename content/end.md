@@ -13,12 +13,42 @@ layout: basic
     </div>
 </div> -->
 
-<div class="flex flex-row gap-8 mt-8">
+<div class="flex flex-row justify-between gap-8 mt-8">
     <div
         class="p-4 flex flex-col items-center"
         v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
     >
-        <QRCode value="https://github.com/toddeTV/talk-2025-05-22-printed-europe-conference" :size="128" class="mb-6" />
+        <QRCode content="https://zlig.net/" :size="128" class="mb-6" />
+        <div class="flex flex-col gap-2">
+            <div class="whitespace-nowrap">
+                Game Online:
+            </div>
+            <div class="w-full text-sm whitespace-nowrap">
+                <mdi-web class="baseColor mx-2" />
+                <MyLink to="https://zlig.net/">https://zlig.net/</MyLink>
+            </div>
+        </div>
+    </div>
+    <div
+        class="p-4 flex flex-col items-center"
+        v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
+    >
+        <QRCode content="https://talk-2025-04-08-dev-day-conference.vercel.app/" :size="128" class="mb-6" />
+        <div class="flex flex-col gap-2">
+            <div class="whitespace-nowrap">
+                Talk Slides `Playing with 3D on the Web & Beyond`:
+            </div>
+            <div class="w-full text-sm">
+                <mdi-github class="baseColor mx-2" />
+                <MyLink to="https://talk-2025-04-08-dev-day-conference.vercel.app/">https://talk-2025-04-08-dev-day-conference.vercel.app/</MyLink>
+            </div>
+        </div>
+    </div>
+    <div
+        class="p-4 flex flex-col items-center"
+        v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
+    >
+        <QRCode content="https://github.com/toddeTV/talk-2025-05-22-printed-europe-conference" :size="128" class="mb-6" />
         <div class="flex flex-col gap-2">
             <div class="whitespace-nowrap">
                 Presentation Slides Source:
@@ -43,9 +73,9 @@ layout: basic
     <div class="p-2 flex-shrink-0 flex gap-4">
         <div>
             <img
-            alt="Avatar of Thorsten Seyschab"
-            class="rounded-full w-full border-3 border-baseColor h-30 w-30"
-            src="/assets/thorsten-seyschab.jpg"
+                alt="Avatar of Thorsten Seyschab"
+                class="rounded-full w-full border-3 border-baseColor h-30 w-30"
+                src="/assets/thorsten-seyschab.jpg"
             >
         </div>
         <div>
