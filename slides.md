@@ -100,6 +100,10 @@ src: content/need-for-portfolio.md
 ---
 
 ---
+src: content/3d-on-the-web.md
+---
+
+---
 src: content/zlig-demo.md
 ---
 
