@@ -72,10 +72,6 @@ src: content/internet-foundation.md
 ---
 
 ---
-src: content/osi-layers.md
----
-
----
 src: content/client-side-and-server-side.md
 ---
 
