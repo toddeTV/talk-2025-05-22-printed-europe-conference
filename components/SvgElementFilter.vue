@@ -10,6 +10,9 @@ const props = defineProps<{
 
   // A string or array of strings representing CSS classes to be applied to the generated inner SVG element.
   svgClass?: string | string[]
+
+  // An optional scale factor to apply to the SVG. This can be used to resize the SVG.
+  scale?: number
 }>()
 
 const svgContainer = ref(null)
@@ -36,6 +39,9 @@ function processAndFilterSvg() {
 
   // Create a new SVG element to house the filtered children
   const newSvgElement = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+
+  const scaleFactor = props.scale || 1
+  newSvgElement.setAttribute('transform', `scale(${scaleFactor})`)
 
   // Copy attributes from the original SVG to the new one (e.g., viewBox, width, height)
   Array.from(svgElement.attributes).forEach((attr) => {

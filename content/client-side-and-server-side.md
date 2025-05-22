@@ -4,8 +4,8 @@ layout: basic
 
 # Client-Side & Server-Side
 
-<div class="w-full flex justify-center -mt-20">
-  <ClientSideAndServerSideSvg class="w-[90%]" />
+<div class="w-full h-full flex justify-center items-center -mt-20">
+  <ClientSideAndServerSideSvg :scale="0.95" />
 </div>
 
 <!-- dummy only to force the click count on this slide manually -->

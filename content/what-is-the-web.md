@@ -4,8 +4,8 @@ layout: basic
 
 # What is the Web?
 
-<div class="w-full flex justify-center -mt-25">
-  <WhatIsTheWebSvg class="w-full" />
+<div class="w-full h-full flex justify-center items-center -mt-15">
+  <WhatIsTheWebSvg :scale="0.8" />
 </div>
 
 <!-- dummy only to force the click count on this slide manually -->

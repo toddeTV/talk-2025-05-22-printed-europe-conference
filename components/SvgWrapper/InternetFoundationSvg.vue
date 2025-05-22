@@ -4,6 +4,10 @@ import { computed } from 'vue'
 import SvgElementFilter from '../SvgElementFilter.vue'
 import mySvgContent from '/assets/excalidraw-drawings/internet-foundation_light.svg?raw'
 
+const prop = defineProps<{
+  scale?: number
+}>()
+
 const { clicks } = useNav()
 
 const fonts = [0, 1, 2]
@@ -63,7 +67,7 @@ const elementsToShow = computed<number[] | 'all'>(() => {
 <template>
   <SvgElementFilter
     :display-indices="elementsToShow"
-    svg-class="w-full"
+    :scale="prop.scale"
     :svg-content="mySvgContent"
   />
 </template>
