@@ -8,7 +8,7 @@ layout: two-cols
 
 <div class="w-full h-23"></div>
 
-<div class="flex flex-col gap-2 mt-3">
+<div class="flex flex-col gap-2 -mt-5">
 
   <div
     class="flex flex-row justify-center gap-7"

@@ -2,11 +2,15 @@
 layout: basic
 ---
 
-# CMS
+# CMS\*
+
+<div class="text-sm absolute bottom-3 left-15">
+  * Content Management System
+</div>
 
 <VClicks depth="2">
 
-For changing **static & dynamic content** with an editor-like approach. There are different Types:
+For changing **static & dynamic content** with an editor-like approach - there are different Types:
 
 </VClicks>
 
