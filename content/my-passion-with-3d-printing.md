@@ -27,16 +27,8 @@ layout: basic
         <span class="mt-6 mb-2">Prusa i3 MK3S</span>
         <span class="text-sm">~ 2020</span>
     </div>
-    <div class="flex flex-col items-center" v-click>
-        <div>
-            <img
-                alt="Bambu Lab X1-Carbon"
-                class="h-40"
-                src="/assets/3d-printers/x1Series-main-bg-v1.png"
-            />
-        </div>
-        <span class="mt-6 mb-2">Bambu Lab X1-Carbon</span>
-        <span class="text-sm">~ 2024</span>
+    <div class="flex flex-col items-center text-5xl font-bold" v-click="2">
+        . . .
     </div>
 </div>
 
